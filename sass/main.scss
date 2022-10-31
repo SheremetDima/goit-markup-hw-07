@@ -8,16 +8,18 @@
 
 
 @import './component/contriner';
+@import './component/modal';
+@import './component/form';
 
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/advantage';
+@import './layouts/action';
 @import './layouts/team';
 @import './layouts/client';
 @import './layouts/footer';
 
-@import './layouts2/filtre';
-@import './layouts2/portfolio';
+@import './pages/filtre';
+@import './pages/portfolio';
 
-@import './component/modal';
-@import './component/form';
+

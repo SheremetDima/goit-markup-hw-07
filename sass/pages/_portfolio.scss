@@ -14,11 +14,11 @@
   cursor: pointer;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.portfolio-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .portfolio-cover-wrapper {
@@ -42,11 +42,15 @@
 
   transition: transform 300ms linear;
   overflow: auto;
-}
 
-.portfolio-item:hover .portfolio-cover-text {
+  .portfolio-item:hover & {
   transform: translateY(0%);
 }
+}
+
+// .portfolio-item:hover .portfolio-cover-text {
+//   transform: translateY(0%);
+// }
 
 .portfolio-wraper {
   padding: 20px 24px;
@@ -64,12 +68,3 @@
   line-height: 1.88;
   color: var(--content-text-colot);
 }
-
-
-
-
-
-
-
-
-

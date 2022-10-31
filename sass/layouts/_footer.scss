@@ -47,9 +47,9 @@ footer {
 
 .addres-map {
   color: var(--second-text-color);
-}
-.addres-map:active {
-  color: var(--accent-color);
+  &:active {
+    color: var(--accent-color);
+  }
 }
 
 .addres-link {
@@ -61,11 +61,11 @@ footer {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-}
 
-.addres-link:hover,
-.addres-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 /* ------------- FOOTER social ------------- */
@@ -97,11 +97,11 @@ footer {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-}
 
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .foter-soc-icon {
@@ -159,17 +159,17 @@ footer {
   border-radius: 4px;
   border-color: transparent;
 
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.follow-btn:hover {
-  background-color: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  &:hover {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }

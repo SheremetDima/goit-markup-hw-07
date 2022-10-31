@@ -47,12 +47,12 @@
   right: 8px;
 
   padding: 0px;
+  &:hover {
+  color: var(--accent-color);
+}
 }
 
 .modal-close-icon {
   fill: currentColor;
 }
 
-.modal-btn:hover {
-  color: var(--accent-color);
-}
