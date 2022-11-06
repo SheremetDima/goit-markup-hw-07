@@ -84,6 +84,10 @@ body {
   background-color: var(--main-backgraund-color);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
